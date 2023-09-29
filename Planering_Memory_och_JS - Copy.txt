@@ -1,0 +1,34 @@
+Projektplanering: "Memory och JavaScript"
+
+
+Mål och beskrivning:
+Målet med detta projekt är att skapa en responsiv webbsida som innehåller ett spel, närmare bestämt ett Memory-spel, för att tydligt illustrera hur JavaScript kan förbättra funktionaliteten hos en webbsida. Hemsidan kommer att ha minst tre sidor.
+
+Hemssida:
+Hemsidan kommer att ha en enkel layout med en navigeringsfält längst upp och en lista med olika länkar som leder till andra sektioner på webbplatsen. Varje länk kommer att åtföljas av en kort beskrivning (h2) av destinationssektionen. Målet för hemsidan är att ha en minimalistisk design.
+
+Sektion 1 - Presentation av min tolkning av "Memory"-produkten:
+Här kommer jag att presentera min personliga tolkning av Memory-spelet och hur det fungerar på webbplatsen. Jag kommer att använda SVG för grafiken och överväga att inkludera relevanta bilder.
+
+Sektion 2 - Historik om spelets ursprung:
+Jag kommer att ge en kort historisk översikt om ursprunget till Memory-spelet och dess betydelse. Detta kommer att bidra till en mer omfattande förståelse av spelet.
+I detta fall funderar jag att använda information fråm Wikipedia. 
+
+Sektion 3 - Förklaring av koden:
+Här kommer jag att förklara den kod jag använder för att implementera Memory-spelet på webbplatsen. Jag kommer att beskriva de olika funktionerna och tekniker som jag använder för att skapa spelet.
+
+Sektion 4 - Källor och dokumentation:
+Jag kommer att inkludera en lista över källor och dokumentation som jag har använt mig av under projektets gång. Detta kommer att visa på min forskning och hjälpa andra att lära sig mer om ämnet.
+
+Sektion 5 - Skapare och mål med projektet:
+I denna sektion kommer jag att ge mig själv erkännande som skapare av webbplatsen och förklara målen med projektet. Detta ger mig möjlighet att dela mina intentioner och visioner för projektet.
+
+Grafisk design:
+Jag kommer att använda mig av typsnitten Fredoka One och Open Sans, båda sans-serif, för att skapa en lekfull men ändå elegant känsla på webbplatsen. Jag har valt en färgpalett från https://coolors.co/ som kommer att fungera som riktlinje för webbplatsens färger.
+
+Tillgänglighet och användarvänlighet:
+Jag kommer att följa allmänna regler för tillgänglighet och skapa en webbplats enkel enkel att navigera och använda. För att säkerställa att webbplatsen fungerar bra på olika enheter och skärmstorlekar kommer jag att implementera responsiv design. Detta innebär att webbplatsens layout och innehåll kommer att anpassas automatiskt för att ge en optimal användarupplevelse oavsett om besökaren använder en dator, surfplatta eller mobiltelefon.
+
+Testning och felsökning:
+För att säkerställa att webbplatsen och Memory-spelet fungerar korrekt kommer flera tester att utföras för att identifiera eventuella fel eller problem. Det kommer att genomföras tester för att verifiera att funktionerna i Memory-spelet (t.e. om korrekt matchning av kort, hantering av tid och poängräkning fungerar som förväntat). Dessutom kommer webbplatsen och Memory-spelet att testas på olika webbläsare och skärmstorlekar för att säkerställa kompatibilitet och responsivitet. Laddningstider och prestanda kommer också att utvärderas genom tester för att optimera webbplatsens effektivitet. Slutligen kommer användbarhetstester att utföras med utvalda användare för att få feedback på användarupplevelsen. Dessa tester kommer att genomföras under projektets utvecklingsfas för att säkerställa en stabil och högkvalitativ användarupplevelse för webb
+

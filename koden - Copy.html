@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt | Koden</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    
+    <header>
+        <nav class="navBar">
+          <a class="navLinks" href="index.html">Hem</a>
+          <a class="navLinks" href="presentation.html">Presentation</a>
+          <a class="navLinks" href="memory.html">Memory</a>
+          <a class="navLinks compass" href="koden.html">Koden</a>
+          <a class="navLinks" href="källor.html">Källor</a>
+          <a class="navLinks" href="credits.html">Credits</a>
+        </nav>
+        <h1>
+          <span class="black">Projekt: <br /></span> Memory och
+          <img
+            class="logoJS"
+            src="https://tse4.mm.bing.net/th?id=OIP.Gb5BimRBTeke5tYNnZoYKAAAAA&pid=Api&P=0&h=180"
+            alt="logojs"
+          />
+        </h1>
+      </header>
+      <main id="kodenMain">
+        <h2>Koden</h2>
+    
+        <section class="kodHtml responsiv">
+          <h3 class="responsiv2">HTML</h3>
+          <img class="semantiskKod kodenPic" src="https://tse4.mm.bing.net/th?id=OIP.WmN0Mf6DFo1o7WrG3lTi8gHaFH&pid=Api&P=0&h=180" alt="semantiskKod">
+          <p class="textKod articleItems">
+            Jag har försökt använda en semantisk kod för min HTML för att hålla koden snygg och lätt orientera sig på sidan. <br>
+            Jag försökte faktiskt dela upp sidan i fördefinierade avsnitt. Jag använde också nästan bara "class"-attribut för att att spara så mycket kod som möjligt.
+          </p>
+        </section>
+    
+        <section class="kodCss responsiv">
+          <h3 class="responsiv2">Css</h3>
+          <div class="imgConteiner">
+          <img class="imgContItems" src="cssScreen.png" alt="cssKod">
+          <img class="imgContItems" src="cssScreen2.png" alt="cssKod2">
+          <img class="imgContItems" src="cssScreen3.png" alt="cssKod3">
+          <img src="cssScreen4.png" alt="cssKod4">
+          </div>
+          <p class="introText" >
+            Några CSS-exempel som jag har använt ofta i min kod och/eller har påverkat dess stil:
+          </p>
+          <ul>
+            <li class="listItems"> <span class="important">"class"-attribut</span> (för att kunna maximera min kod och minska antalet väljare);</li>
+            <li class="listItems"><span class="important">"hover" pseudokod</span> (för att ge en effekt till elementet vid hovring);</li>
+            <li class="listItems"><span class="important"> display flex</span> (en multifunktionell layout perfekt för en responsiv webbplats) </li>
+            <li class="listItems"><span class="important">display grid</span> (en alternativ layout till flexbox som jag skapade rutnätet med kort med)</li>
+            
+          </ul>
+        </section>
+    
+        <section class="kodJs responsiv">
+          <h3 class="responsiv2">JS</h3>
+          <p class="introText">Jag kommer att använda nyckelbilder för att förklara de viktiga punkterna i min kod:</p>
+          <div class="articleContainer">
+           
+          <article class="ItemsContainer">
+            <img class="resp" src="JSScreen.png" alt="JsKod">
+            <p class="articleItems">I den här fasen skapade jag några globala variabler och en funktion som blandar korten varje gång vi startar spelet.</p>
+          </article>
+          
+          <article class="ItemsContainer">
+            <img class="resp" src="JSScreen2.png" alt="JsKod2">
+            <p  class="articleItems">Vid det här laget skapar jag två funktioner för att hantera kortens två "ansikten": den första handlar om att avslöja korten för att låta användaren memorera dem och den andra med att täcka dem för att faktiskt starta spelet.</p>
+          </article>
+          
+          <article class="ItemsContainer">
+            <img class="resp" src="JSScreen3.png" alt="JsKod3">
+            <p class="articleItems">FlipCard-funktionen lägger till klassen "flipped" via en växling när if-villkoret inträffar.</p>
+          </article>
+            
+          <article class="ItemsContainer">
+            <img class="resp" src="JSScreen4.png" alt="JsKod4">
+            <p class="articleItems">Här försöker jag skapa en vinstcheck som visar mig en vinst "alert" om alla par är positivt parade i rad. Alternativt en nederlags "alarm" vid det första misstaget.
+
+             <br> Tyvärr har jag i skrivande stund inte lyckats fullfölja villkoren ännu. Därför kan denna fas av koden genomgå variationer.</p>
+          </article>
+
+          <article class="ItemsContainer">
+            <img class="resp" src="JSScreen5.png" alt="JsKod4">
+            <p class="articleItems">I denna sista fas (som faktiskt är början på allt) tillskriver jag evenListeners till kortens två ytor, jag skapar spelstartproceduren genom StartGame-funktionen som bland annat innehåller en 5-sekunders timeOut som täcker korten efter att ha visat dem för användaren. Slutligen ger jag användaren makten att klicka på knappen för att starta spelet. <br>
+              Senare lade jag till möjligheten att starta spelet med "Enter"-tangenten för webbplatsens tillgänglighet.
+            </p>
+          </article>
+          </div>
+          
+        </section>
+    
+    
+    
+    
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
