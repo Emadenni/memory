@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans:ital,wght@1,300&display=swap");
+
+body {
+  background-color: #8ecae6;
+  margin: 0px;
+}
+
+.navBar {
+  position: fixed;
+  top:0;
+  background-color: #ffb703;
+  width: 100%;
+  height: 50px;
+  margin:0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  align-items: center;
+}
+
+.navLinks {
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  font-size: 26px;
+  color: #023047;
+  padding: 30px;
+}
+
+.navBar > a:hover {
+  color: aqua;
+  font-size: 28px;
+}
+
+h1 {
+  color: #fb8500;
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 50px;
+}
+
+.black {
+  color: black;
+  font-size: 26px;
+}
+
+.logoJS {
+  width: 60px;
+  border-radius: 10px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: antiquewhite;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  /* margin-left: 400px; */
+  border-radius: 10px;
+}
+
+.listItems {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #023047;
+}
+
+.listItems:hover {
+  font-weight: bold;
+  background-color: #ffb703;
+}
+
+h2 {
+  color: #fb8500;
+  margin-left: 5px;
+  font-size: 22px;
+  padding-top: 0;
+  margin-top: 0px;
+}
+
+.reLink {
+  text-decoration: none;
+  color: #023047;
+}
+
+.reLink:hover {
+  color: white;
+}
+
+.compass {
+  background-color: #8ecae6;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.galleryImg {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.gallery img.hovered {
+  box-shadow: 0px 10px 40px #ffb703;
+  /* border: solid #ffb703; */
+  border-width: 32px;
+  border-radius: 12px;
+  width: 250px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.cards {
+  display: none;
+  height: 190px;
+  margin: 0;
+  padding: 10px;
+  transform-style: preserve-3d;
+  transition: transform.5s;
+}
+
+.cardBack {
+  height: 190px;
+  margin: 0;
+  padding: 10px;
+}
+
+#startButton {
+  position: relative;
+  left: 845px;
+  margin-bottom: 70px;
+  width: 200px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: beige;
+  font-size: 24px;
+}
+
+.flipped {
+  transform-style: preserve-3d;
+}
+
+.hidden {
+  display: none;
+}
+
+.game {
+  background-color: #fb8500;
+  margin: 10px;
+}
+
+.textPres {
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px;
+  width: 98%;
+}
+
+h2 {
+  text-align: center;
+  color: #023047;
+  background-color: white;
+  font-size: 25px;
+}
+
+h3 {
+  color: #fb8500;
+  margin: 18px;
+  margin-top: 30px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.creditPic {
+  border-radius: 100%;
+  position: relative;
+  left: 880px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.textCredits {
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin: 30px;
+  width: 98%;
+}
+
+.special {
+  color: #ffb703;
+  background-color: white;
+  justify-content: center;
+  margin-left: 680px;
+  font-size: 24px;
+}
+
+.kod {
+  height: 60%;
+  width: auto;
+  align-self: center;
+  padding: 14px;
+  float: right;
+}
+
+.textSources {
+  color: #fb8500;
+  font-size: 18px;
+}
+
+.logoCss {
+  height: 45px;
+}
+
+.center {
+  position: relative;
+  left: 900px;
+}
+
+.logoHTML {
+  height: 45px;
+  position: relative;
+  left: 920px;
+}
+
+.kodHtml {
+  background-color: aliceblue;
+}
+
+
+.textKod {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #023047;
+  text-align: center;
+}
+
+.kodenPic {
+  position: relative;
+  left: 930px;
+}
+
+.imgConteiner {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.imgContItems {
+  padding: 8px;
+}
+
+.kodCss {
+  background-color: aliceblue;
+}
+
+.introText {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.important {
+  color: #fb8500;
+}
+
+.kodJs {
+  background-color: aliceblue;
+}
+
+
+.articleItems {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  color: #023047;
+  background-color: antiquewhite;
+margin-left: 20px;
+text-align: center;
+}
+
+.articleItems:hover {
+  font-weight: bold;
+  background-color: #ffb703;
+}
+
+article>img {
+  position: relative;
+  left: 660px;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+  .navBar {
+    display: grid;
+    padding: 0%;
+    margin: 0%;
+    background-color: #fb8500;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    position: static;
+  }
+
+  .compass {
+    background-color: none;
+  }
+
+  h1 {
+    margin-top: 100px;
+  }
+
+  .textPres {
+    max-width: 340px;
+  }
+
+  .kod {
+    position: relative;
+    right: 25px;
+  }
+
+  footer {
+    display: none;
+  }
+  .textCredits {
+    max-width: 300px;
+  }
+
+  .creditPic {
+    position: relative;
+    left: 100px;
+  }
+
+  h3 {
+    position: relative;
+    left: 80px;
+  }
+
+  .wrapper {
+    margin-top: 10px;
+    padding: 0px 5px 10px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    border: none;
+  }
+
+  .noMargin {
+    margin: 0;
+  }
+
+  .kodenPic {
+   display: none;
+  }
+
+  #kodenMain{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 360px;
+   }
+
+   .resp{
+    align-self: self-start;
+    width: 250px;
+    position: relative;
+    left: 60px;
+   }
+  .articleItems{
+  position: relative;
+  left: -10px;
+}
+
+.responsiv2 {
+  position: relative;
+  left: 20px;
+}
+.imgConteiner{
+  flex-direction: column;
+  overflow: auto;
+}
+
+.center {
+  position: relative;
+  left: 150px;
+}
+
+.logoHTML {
+  position: relative;
+  left:170px;
+}
+.tools {
+  position: relative;
+  left: 30px;
+}
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 850px) {
+  .navBar {
+    display: grid;
+    padding: 0%;
+    margin: 0%;
+    background-color: #fb8500;
+    height: 800px;
+    width: 100%;
+    text-align: left;
+    position: static;
+  }
+
+  .compass {
+    background-color: none;
+  }
+
+  h1 {
+    margin-top: 100px;
+  }
+
+  .textPres {
+    max-width: 840px;
+  }
+
+  .kod {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+  .textCredits {
+    max-width: 820px;
+  }
+
+  .creditPic {
+    position: relative;
+    left: 350px;
+  }
+
+  h3 {
+    position: relative;
+    left: 30px;
+  }
+
+  .wrapper {
+    margin-top: 10px;
+    padding: 0px 5px 10px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    border: none;
+  }
+
+  .noMargin {
+    margin: 0;
+  }
+
+  .kodenPic {
+   display: none;
+  }
+
+  #kodenMain{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 800px;
+   }
+
+   .resp{
+    align-self: self-start;
+    width: 250px;
+    position: relative;
+    left:290px;
+   }
+  .articleItems{
+  position: relative;
+  left: -10px;
+}
+
+.responsiv2 {
+  position: relative;
+  left: 20px;
+}
+.imgConteiner{
+  flex-direction: column;
+  overflow: auto;
+}
+
+.center {
+   position: relative;
+  left: 350px;
+}
+
+.logoHTML {
+  position: relative;
+  left:370px;
+} 
+.tools {
+  position: relative;
+  left: 0px;
+}
+
+}
